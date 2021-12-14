@@ -2,8 +2,8 @@
 
 ### Setup Demo
 
-Follow the steps in the Baeldung post linked above.  
-_Note: This Spring Web Application will run on port 9090, adjust the URLs in the sample accordingly._ 
+Follow the steps for the Keycloak Realm and Client setup in the [Baeldung post](https://www.baeldung.com/spring-boot-keycloak) linked above.  
+_Note: This Spring Web Application will run on port 9090, adjust the URLs (eg. Redirect URL) in the sample accordingly._ 
 
 ### Run Demo
 
