@@ -1,0 +1,1 @@
+## Taken from baeldung.com, for complete Keycloak example with Tests, SOAP and Web Services see https://www.baeldung.com/spring-boot-keycloak

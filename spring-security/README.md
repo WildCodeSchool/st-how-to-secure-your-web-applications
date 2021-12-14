@@ -1,6 +1,6 @@
-### Sample for unsecured Web Application
+### Sample for Spring Security Secured Web Application (self-managed users)
 
-taken as "initial" from https://github.com/spring-guides/gs-securing-web.
+taken as "complete" from https://github.com/spring-guides/gs-securing-web.
 
 ### Run Demo
 
@@ -19,4 +19,11 @@ taken as "initial" from https://github.com/spring-guides/gs-securing-web.
 
 ### Start Demo
 
-* Open `http://localhost:8080`
+* Open `http://localhost:9090`
+
+### User login data
+
+```
+"User",  Role USER,  username: user,  password: user
+"Admin", Role ADMIN, username: admin, password: admin
+```
