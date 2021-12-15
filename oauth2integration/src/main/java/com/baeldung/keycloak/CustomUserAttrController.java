@@ -50,7 +50,7 @@ public class CustomUserAttrController {
     public String getStaffPage(Model model) {
         KeycloakAuthenticationToken authentication = (KeycloakAuthenticationToken) SecurityContextHolder.getContext().getAuthentication();
         Principal principal = (Principal) authentication.getPrincipal();
-        String position = readAttrFromPrincipal(principal, "POSITION");
+        String position = readAttrFromPrincipal(principal, "position");
         model.addAttribute("username", principal.getName());
         model.addAttribute("position", position);
         return "staff";
