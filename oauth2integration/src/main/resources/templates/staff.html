@@ -9,14 +9,14 @@
 
 </head>
 <body>
-	<div id="container">
-		<h1>
-			Hello, <span th:text="${username}">--name--</span>.
-		</h1>
-		<h3>
-			Your Date of Birth as per our records is <span th:text="${dob}" />.
-		</h3>
-	</div>
-	<a href="/logout">Logout</a>
+<div id="container">
+	<h1>
+		Welcome to the Staff Page.
+	</h1>
+	<h3>
+		Your position in the Staff team is <span th:text="${position}" />.
+	</h3>
+</div>
+<a href="/logout">Logout</a>
 </body>
 </html>
