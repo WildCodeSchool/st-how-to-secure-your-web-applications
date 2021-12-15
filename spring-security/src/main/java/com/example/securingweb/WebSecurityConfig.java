@@ -32,12 +32,17 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	@Override
 	public UserDetailsService userDetailsService() {
 		UserDetails user =
-			 User.withDefaultPasswordEncoder()
+				User.withDefaultPasswordEncoder()
 				.username("user")
-				.password("password")
+				.password("user")
 				.roles("USER")
 				.build();
-
-		return new InMemoryUserDetailsManager(user);
+		UserDetails admin =
+			User.withDefaultPasswordEncoder()
+			 	.username("admin")
+				.password("admin")
+				.roles("ADMIN")
+				.build();
+		return new InMemoryUserDetailsManager(admin, user);
 	}
 }
