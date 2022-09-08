@@ -2,6 +2,9 @@
 /.idea
 /docker-compose-fullstack
 **/target
+**/.gradle
+**/build
+**/*.iml
 /shelf/
 /.idea/workspace.xml
 # Datasource local storage ignored files
